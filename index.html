@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="rps.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="rps.js" defer></script>
 </head>
 <body>
-    
+    <div id="score">
+        <div>Human: <span id="human">0</span></div>
+        <div>Computer: <span id="computer">0</span></div>
+    </div>
+    <div class="info">Make your pick!</div>
+    <div class="picks">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
 </body>
 </html>
